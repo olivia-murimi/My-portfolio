@@ -1,4 +1,4 @@
-.{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -39,15 +39,14 @@ animation-delay: .4s;
 
 }
 .navbar{
-    font-size: 18px;
-    color:#055170;
+    font-size: 15px;
     text-decoration: none;
     font-weight: 500;
     margin-left:0 px;
     transition: 0.3s;
-}
-.navbar a hover,.navbar a active{ 
-    color: #00abf0;
+    a {
+        color: white;
+    }
 }
 .home{
     height:100vh;
