@@ -153,6 +153,33 @@
 .about-content p{
     color:white;
     font-size: 20px;
-    margin:2cm;
+    margin:2cm 0 3cm;
+}
+.contact-form h2{
+    text-align:center;
+    margin-top:3cm;
+    margin-bottom:1cm;
+    font-size:36px;
+}
+.contact-form form{
+    max-width:50cm;
+    margin:1rem auto;
+    text-align: center;
+    margin-bottom:3cm;
+}
+.contact-form form .input-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.contact-form form .input-box input, .contact-form form text{
+    width:100%;
+    padding:1.5cm;
+    font-size: 18px;
+    color:black;
+    background:paleturquoise;
+    border-radius: .8rem;
+    margin:1rem 0;
+    resize:none;
 }
 
