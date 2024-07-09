@@ -119,4 +119,14 @@
     color: #000000;
     border: 2px solid transparent;
 }
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #004e92;
+}
+::webkit-scrollbar-track{
+    background-color: #000000;
+    width: 50px;
+}
 
