@@ -169,3 +169,9 @@ span{
     font-size: 20x;
     margin: 2cm 0 3cm;
 }
+.contact-form h2{
+    text-align: center;
+    margin-top: 3cm;
+    margin-bottom: 1cm;
+    font-size:36px;
+}
