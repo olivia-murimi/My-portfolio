@@ -139,3 +139,33 @@ span{
     background-color: rgba(0, 0, 0.6);
     width: 60px;
 }
+.about{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 12% 8%;
+    gap: 10cm;
+    background: black;
+}
+.about-img img{
+    position:relative;
+    width:550px;
+    box-shadow:0 0 25px orangered,
+               0 0 50px orangered;
+           
+}
+.about-content h2{
+  text-align:left;
+  color:white;
+  font-size:42px;
+}
+.about-content h3{
+    font-size:62px;
+    color:white;
+
+}
+.about-content p{
+    color:white;
+    font-size: 20x;
+    margin: 2cm 0 3cm;
+}
