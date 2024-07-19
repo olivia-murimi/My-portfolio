@@ -36,11 +36,14 @@ span{
 }
 .navbar{
     font-size: 18px;
-    color:white;
-    font-weight: 5oo;
+    font-weight: 500;
     margin:0 20px;
+    word-spacing: 15px;
     border-bottom:3px solid transparent;
     transition: 0.3s ease;
+}
+.navbar a{
+    color: white;
 }
 .navbar a:hover,
 .navbar a:active{
@@ -60,7 +63,6 @@ span{
 }
 .contact-hover{
     background-color: orangered;
-    box-shadow: 0 0 25px orangered;
     color:white;
 }
 .home{
@@ -176,7 +178,7 @@ span{
     font-size:36px;
 }
 .contact-form form{
-    max-width: 50cm;
+    max-width: 20cm;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3cm;
